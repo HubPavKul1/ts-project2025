@@ -1,4 +1,4 @@
-type TId = string
+export type TId = string
 type TDuration = number
 export type TImageUrl = string
 
