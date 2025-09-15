@@ -24,7 +24,8 @@ export interface ITrack  extends IBase {
     duration: TDuration,
     image: TImageUrl,
     isPublished: TisPublished,
-    artist: IArtist
+    artist: IArtist,
+    audioUrl: string
 }
 
 // interface используется для описания структуры объекта, ответов от API
